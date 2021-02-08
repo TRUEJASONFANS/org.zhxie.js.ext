@@ -1,3 +1,4 @@
+
 export const isOfType = (() => {
   // create a plain object with no prototype
   const type = Object.create(null);
@@ -32,4 +33,4 @@ export const isOfType = (() => {
   type.date = x => type.type(x, Date);
   
   return type;
-})();
+})()

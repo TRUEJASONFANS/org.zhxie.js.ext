@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "source-map-loader": "^2.0.0",
+    "awesome-typescript-loader": "^8.0.15"
+  }
 }
