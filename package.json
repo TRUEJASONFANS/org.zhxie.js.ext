@@ -2,9 +2,13 @@
   "name": "front",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/es6/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:es6": "tsc -P tsconfig.json --module ES6 --outDir dist/es6",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc":"tsc -P tsconfig.json",
+    "build": "npm run build:es6"
   },
   "keywords": [],
   "author": "",

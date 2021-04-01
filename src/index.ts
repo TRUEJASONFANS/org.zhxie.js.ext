@@ -1,0 +1,1 @@
+export {isOfType} from "./types";
